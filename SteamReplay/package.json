@@ -40,5 +40,10 @@
   },
   "devDependencies": {
     "web-vitals": "^4.2.4"
-  }
+  },
+    "jest": {
+      "transform": {
+        "^.+\\.[t|j]sx?$": "babel-jest"
+      }
+    }
 }
